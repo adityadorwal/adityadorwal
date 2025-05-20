@@ -50,7 +50,7 @@ Feel free to check out my profile here: [LeetCode - dorwaladitya](https://leetco
 ## Let’s Connect!
 
 - LinkedIn: [linkedin.com/in/adityadorwal](https://www.linkedin.com/in/aditya-dorwal-b4a488288/)  
-- Email: adityadorwal@gmail.com  
+- Email: dorwaladitya18@gmail.com  
 - Portfolio: [adityadorwal.github.io/MyPortfolio](https://adityadorwal.github.io/MyPortfolio/)
 
 ---
