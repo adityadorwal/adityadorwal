@@ -36,9 +36,9 @@ I’m passionate about improving my problem-solving skills and have actively par
 
 I actively solve problems on LeetCode to sharpen my DSA and algorithmic skills:
 
-- **62 problems solved** out of 3555 available  
-- **67.12% acceptance rate**  
-- Solved problems in Java (43), C++ (24)  
+- **92 problems solved** out of 3555 available  
+- **77.12% acceptance rate**  
+- Solved problems in Java (92)
 - Strengths: Dynamic Programming, Monotonic Stack, Divide and Conquer, Hash Table, Math, Binary Search, Arrays, Strings, Two Pointers  
 - **290 submissions in the past year** with a current max streak of 7 days  
 - Mix of Easy (33), Medium (26), and Hard (3) problems solved
