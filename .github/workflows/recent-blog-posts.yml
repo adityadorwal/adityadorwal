@@ -1,0 +1,36 @@
+name: Update Recent Blog Posts
+on:
+  schedule:
+    - cron: '30 3 * * *'
+  workflow_dispatch: {}
+jobs:
+  update-posts:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Install deps
+        run: pip install feedparser
+      - name: Fetch RSS & update RECENT_POSTS.md
+        run: |
+          python - <<'PY'
+import feedparser, datetime
+rss = 'https://dev.to/feed/adityadorwal'  # TODO: change to your blog feed
+d = feedparser.parse(rss)
+lines = ['# Recent Posts\n']
+for e in d.entries[:5]:
+    date = getattr(e, 'published', '') or getattr(e, 'updated', '')
+    lines.append(f"- [{e.title}]({e.link}) — {date}")
+open('RECENT_POSTS.md','w').write("\n".join(lines)+"\n")
+PY
+      - name: Commit & Push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add RECENT_POSTS.md
+          git commit -m "chore: update recent blog posts" || echo "No changes"
+          git push || echo "No push"
