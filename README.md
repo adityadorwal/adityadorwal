@@ -29,7 +29,7 @@ I turn research ideas into **usable, fast demos**. Recently exploring **real‑t
 ## 🚀 Featured Projects
 ### 1. Plant Disease Detection
 
-<img src="assets/proj1.jpg" width="720" />
+<img src="assets/proj1.png" width="720" />
 
 ResNet18 • Grad-CAM • Streamlit
 
@@ -37,7 +37,7 @@ ResNet18 • Grad-CAM • Streamlit
 
 ### 2. Whisper.cpp Transcriber (RT)
 
-<img src="assets/proj2.jpg" width="720" />
+<img src="assets/proj2.png" width="720" />
 
 VAD • Hotword • Async
 
@@ -45,7 +45,7 @@ VAD • Hotword • Async
 
 ### 3. Dorwal AI — Assistant
 
-<img src="assets/proj3.jpg" width="720" />
+<img src="assets/proj3.png" width="720" />
 
 Local LLM • NLP • Desktop
 
@@ -53,7 +53,7 @@ Local LLM • NLP • Desktop
 
 ### 4. LeetCode DSA Solutions
 
-<img src="assets/proj4.jpg" width="720" />
+<img src="assets/proj4.png" width="720" />
 
 Organized Java Solutions
 
@@ -61,7 +61,7 @@ Organized Java Solutions
 
 ### 5. MPIN Strength Checker
 
-<img src="assets/proj5.jpg" width="720" />
+<img src="assets/proj5.png" width="720" />
 
 Security heuristics (Python)
 
