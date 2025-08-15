@@ -85,27 +85,6 @@ Security heuristics (Python)
 ---
 
 ## 📝 Recent Posts
-name: 'Update Blog Posts'
-
-on:
-  schedule:
-    # Runs every 4 hours to check for new posts
-    - cron: '0 */4 * * *'
-  workflow_dispatch:
-
-jobs:
-  update-posts:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: gautamkrishnar/blog-post-workflow@v1
-        with:
-          # Your dev.to RSS feed URL
-          feed_list: "https://dev.to/feed/adityadorwal"
-          max_post_count: 5
-          readme_file: "README.md"
-          commit_message: "chore: update recent blog posts"
-          comment_tag_name: "BLOG-POST-LIST"
 
 ---
 
