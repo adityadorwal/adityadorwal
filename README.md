@@ -27,13 +27,7 @@ I turn research ideas into **usable, fast demos**. Recently exploring **real‑t
 - 🔍 Explainable CV with sleek UX
 - 🧪 Rapid prototyping → polished demos
 - ☕ Coffee → Code → Ship → Repeat
-
-I'm a 3rd-year B.Tech student in AIML, passionate about building high-performance AI applications that run at the edge. I believe in the power of **offline-first AI** 🔌, creating solutions that are fast, dependable, and privacy-focused.
-
-My projects often involve transforming raw research ideas into polished, usable demos. This includes my work on **real-time speech systems using `Whisper.cpp`** 🗣️ and **explainable computer vision with `Grad-CAM`** 👁️.
-
-I'm driven by a simple goal: to build efficient, clean, and real-world-ready technology. I'm actively seeking opportunities to apply my skills in **SDE/ML internships** and contribute to open-source projects. 🤝
-
+  
 ---
 
 ### 🧠 My Core Focus
