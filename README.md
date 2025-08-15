@@ -23,6 +23,11 @@ I turn research ideas into **usable, fast demos**. Recently exploring **real‑t
 - 🎓 B.Tech (AIML), KCC — 3rd year
 - 🧠 Interested in: **Whisper.cpp**, **Grad‑CAM**, **local LLMs**, and **offline‑first AI tools**
 - 🤝 Open to: **SDE/ML internships**, open‑source collabs
+- ⚡ Real-time speech & local AI tools
+- 🔍 Explainable CV with sleek UX
+- 🧪 Rapid prototyping → polished demos
+- ☕ Coffee → Code → Ship → Repeat
+
 
 ---
 
