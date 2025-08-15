@@ -8,6 +8,6 @@
 - ☕ Coffee → Code → Ship → Repeat
 
 ### Visual Picks
-<img src="assets/proj1.jpg" width="700"/><br/>
+<img src="assets/proj1.png" width="700"/><br/>
 <img src="assets/proj2.jpg" width="700"/><br/>
 <img src="assets/proj3.jpg" width="700"/>
