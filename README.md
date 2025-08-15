@@ -77,10 +77,10 @@ Security heuristics (Python)
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com?user=adityadorwal&theme=dark&hide_border=true" />
 </p>
-<p align="center">
+<!-- <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=adityadorwal&show_icons=true&theme=transparent" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adityadorwal&layout=compact&theme=transparent" />
-</p>
+</p> -->
 
 ---
 
