@@ -57,7 +57,7 @@ A personal desktop assistant powered by a Local LLM (Large Language Model), desi
 
 ### 4. LeetCode DSA Solutions
 
-<img src="assets/proj4.png" width="720" />
+[<img src="assets/proj4.png" width="720" alt="LeetCode DSA Solutions"/>](https://github.com/adityadorwal/leetcode-dsa_solutions)
 
 An organized repository of my solutions for Data Structures and Algorithms (DSA) problems from LeetCode. All solutions are written in Java and are carefully documented to demonstrate clean code principles and efficient problem-solving strategies. This collection serves as a personal resource and a public guide for others studying DSA.
 
@@ -65,7 +65,7 @@ An organized repository of my solutions for Data Structures and Algorithms (DSA)
 
 ### 5. MPIN Strength Checker
 
-<img src="assets/proj5.png" width="720" />
+[<img src="assets/proj5.png" width="720" alt="MPIN Strength Checker"/>](https://github.com/adityadorwal/MPIN-Strength-Checker)
 
 A practical security tool developed in Python that evaluates the strength of a Mobile Personal Identification Number (MPIN). The project employs a set of security heuristics and statistical analysis to assess the predictability and common patterns in a given MPIN, providing a simple yet effective way to help users create stronger, more secure codes.
 
