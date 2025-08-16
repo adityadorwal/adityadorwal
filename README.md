@@ -30,15 +30,6 @@ I turn research ideas into **usable, fast demos**. Recently exploring **real‑t
   
 ---
 
-### 🧠 My Core Focus
-
-* **Offline-first AI:** Building local, dependency-light AI models. 🚀
-* **Speech Systems:** Real-time transcription and hotword detection. 🎙️
-* **Explainable AI:** Making complex models more transparent. ✨
-* **Java & Python:** Crafting robust backend logic and efficient ML pipelines. ☕
-
----
-
 ## 🚀 Featured Projects
 ### 1. Plant Disease Detection
 
