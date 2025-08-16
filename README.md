@@ -33,7 +33,7 @@ I turn research ideas into **usable, fast demos**. Recently exploring **real‑t
 ## 🚀 Featured Projects
 ### 1. Plant Disease Detection
 
-<img src="assets/proj1.png" width="720" />
+[![Plant Disease Detection Screenshot](assets/proj1.png)](https://github.com/adityadorwal/plant-disease-detection)
 
 This project leverages deep learning to build an accurate and intuitive plant disease detection system. It utilizes a ResNet18 model to classify plant leaf images, and integrates Grad-CAM to provide visual explanations of the model's predictions, making the AI's decision-making process transparent to the user. The application is deployed with Streamlit for a clean, user-friendly interface.
 
@@ -91,4 +91,4 @@ A practical security tool developed in Python that evaluates the strength of a M
 [LinkedIn](https://www.linkedin.com/in/aditya-dorwal-b4a488288/) · [Portfolio](https://adityadorwal.github.io/portfolio/) · [Email](18dorwaladitya@gmail.com)
 ---
 
-<p align="center">Made with ❤️ — Smooth, lightweight animations • Dark & Light variants included</p>
+<p align="center">Made with ❤️—A focus on a seamless user experience, including lightweight animations and Dark & Light variants.</p>
