@@ -31,27 +31,27 @@ I turn research ideas into **usable, fast demos**. Recently exploring **real‑t
 ---
 
 ## 🚀 Featured Projects
-### 1. Plant Disease Detection
+### 1. Plant Disease Detection  
 
-[<img src="assets/proj1.png" width="720" alt="Plant Disease Detection Project"/>](https://github.com/adityadorwal/plant-disease-detection)
+[<img src="assets/proj1.png" width="720" alt="Plant Disease Detection Project"/>](https://github.com/adityadorwal/plant-disease-detection)  
 
-This project leverages deep learning to build an accurate and intuitive plant disease detection system. It utilizes a ResNet18 model to classify plant leaf images, and integrates Grad-CAM to provide visual explanations of the model's predictions, making the AI's decision-making process transparent to the user. The application is deployed with Streamlit for a clean, user-friendly interface.
-
----
-
-### 2. Whisper.cpp Transcriber (RT)
-
-<img src="assets/proj2.png" width="720" />
-
-A real-time speech transcription tool built around Whisper.cpp. This project focuses on creating a highly efficient and low-latency system by incorporating Voice Activity Detection (VAD) to filter out silence and hotword detection for activation. The use of an asynchronous architecture ensures a smooth, non-blocking user experience, making it suitable for live-transcription tasks.
+This project leverages deep learning to build an accurate and intuitive plant disease detection system. It utilizes a **ResNet18** model to classify plant leaf images, and integrates **Grad-CAM** to provide visual explanations of the model's predictions, making the AI's decision-making process transparent to the user. The application is deployed with **Streamlit** for a clean, user-friendly interface.  
 
 ---
 
-### 3. Dorwal AI — Assistant
+### 2. Whisper.cpp Transcriber (RT)  
 
-<img src="assets/proj3.png" width="720" />
+[<img src="assets/proj2.png" width="720" alt="Whisper.cpp Real-Time Speech Transcriber"/>](https://github.com/adityadorwal)  
 
-A personal desktop assistant powered by a Local LLM (Large Language Model), designed for privacy and offline use. The assistant processes natural language requests (NLP) directly on the user's machine, enabling a wide range of tasks from answering questions to automating workflows without an internet connection. This project highlights the potential of powerful, privacy-first desktop AI tools.
+A real-time speech transcription tool built around **Whisper.cpp**. This project focuses on creating a highly efficient and low-latency system by incorporating **Voice Activity Detection (VAD)** to filter out silence and **hotword detection** for activation. The use of an **asynchronous architecture** ensures a smooth, non-blocking user experience, making it suitable for live-transcription tasks.  
+
+---
+
+### 3. Dorwal AI — Assistant  
+
+[<img src="assets/proj3.png" width="720" alt="Dorwal AI — Local Desktop Assistant"/>](https://github.com/adityadorwal)  
+
+A personal desktop assistant powered by a **Local LLM (Large Language Model)**, designed for privacy and offline use. The assistant processes natural language requests (**NLP**) directly on the user's machine, enabling a wide range of tasks from answering questions to automating workflows without an internet connection. This project highlights the potential of powerful, privacy-first desktop AI tools.  
 
 ---
 
