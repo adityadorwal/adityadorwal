@@ -2,7 +2,7 @@ name: Update Recent Blog Posts
 
 on:
   schedule:
-    - cron: '30 3 * * *'   # Runs every day at 03:30 UTC
+    - cron: '0 */6 * * *'   # Runs every 6 hours (UTC)
   workflow_dispatch: {}
 
 jobs:
@@ -10,8 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
@@ -19,22 +22,13 @@ jobs:
 
       - run: pip install feedparser
 
-      - name: Build RECENT_POSTS.md from RSS
-        run: |
-          python - <<EOF
-import feedparser
-rss = 'https://dev.to/feed/adityadorwal'
-d = feedparser.parse(rss)
-lines = ['# Recent Posts\n']
-for e in d.entries[:5]:
-    lines.append(f"- [{e.title}]({e.link})")
-open('RECENT_POSTS.md', 'w').write("\n".join(lines) + "\n")
-EOF
+      - name: Update README with recent posts
+        run: python .github/scripts/update_posts_to_readme.py
 
       - name: Commit and Push Changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add RECENT_POSTS.md
-          git commit -m "chore: update recent posts" || echo "No changes"
-          git push || true
+          git add README.md
+          git diff --staged --quiet || git commit -m "chore: update recent blog posts"
+          git push
