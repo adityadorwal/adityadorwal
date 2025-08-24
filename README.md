@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/animated-banner.gif" alt="Aditya Dorwal — Animated Banner" />
+  <img src="assets/Hello.gif" alt="Aditya Dorwal — Animated Banner" />
 </p>
 
 <h1 align="center">Hi, I'm <strong>Aditya Dorwal</strong> 👋</h1>
