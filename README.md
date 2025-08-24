@@ -71,7 +71,7 @@ A personal desktop assistant powered by a **Local LLM (Large Language Model)**, 
 ---
 
 <p align="center">
-  <img src="assets/cat_gif.gif" alt="Cat_gif" width="200"/>
+  <img src="assets/cat_gif.gif" alt="Cat_gif" width="500"/>
 </p>
 
 ## 📫 Contact
