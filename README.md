@@ -67,6 +67,12 @@ A personal desktop assistant powered by a **Local LLM (Large Language Model)**, 
 ---
 
 ## 📝 Recent Posts
+<!-- BLOG-POST-LIST:START -->
+- *(loading…)*
+<!-- BLOG-POST-LIST:END -->
+
+---
+
 
 ---
 
