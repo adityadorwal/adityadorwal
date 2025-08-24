@@ -2,7 +2,7 @@
   <img src="assets/Hello.gif" alt="Welcome_gif" />
 </p>
 
-<h1 align="center">Hi, I'm <strong>Aditya Dorwal</strong> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="50" height="50" /></h1>
+<h1 align="center">Hi, I'm <strong>Aditya Dorwal</strong> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="75" height="75" /></h1>
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?size=22&duration=2800&pause=700&center=true&vCenter=true&width=760&lines=AI+Engineer+who+ships+fast%2C+clean+ML+projects;Real-time+Speech+%E2%80%A2+Explainable+CV+%E2%80%A2+NLP;Open-source+mindset+%7C+DSA+daily" />
@@ -71,11 +71,11 @@ A personal desktop assistant powered by a **Local LLM (Large Language Model)**, 
 ---
 
 <p align="center">
-  <img src="assets/cat_gif.gif" alt="Cat_gif" />
+  <img src="assets/cat_gif.gif" alt="Cat_gif" width="200"/>
 </p>
 
 ## 📫 Contact
 [LinkedIn](https://www.linkedin.com/in/aditya-dorwal-b4a488288/) · [Portfolio](https://adityadorwal.github.io/portfolio/) · [Email](18dorwaladitya@gmail.com)
 ---
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="25" height="25" />
+
 <p align="center">Made with ❤️—A focus on a seamless user experience, including lightweight animations and Dark & Light variants.</p>
