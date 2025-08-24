@@ -2,33 +2,17 @@ name: Update Recent Blog Posts
 
 on:
   schedule:
-    - cron: '0 */6 * * *'   # Runs every 6 hours (UTC)
-  workflow_dispatch: {}
+    - cron: '0 * * * *'   # Runs every hour
+  workflow_dispatch:      # Allows manual trigger
 
 jobs:
-  update:
+  update-readme-with-blog:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Pull in dev.to posts
+        uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          fetch-depth: 0
-
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.x'
-
-      - run: pip install feedparser
-
-      - name: Update README with recent posts
-        run: python .github/scripts/update_posts_to_readme.py
-
-      - name: Commit and Push Changes
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git diff --staged --quiet || git commit -m "chore: update recent blog posts"
-          git push
+          feed_list: "https://dev.to/feed/YOUR_USERNAME"
