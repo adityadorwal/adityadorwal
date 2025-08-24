@@ -8,6 +8,8 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
 
@@ -19,7 +21,7 @@ jobs:
 
       - name: Build RECENT_POSTS.md from RSS
         run: |
-          python - <<'PY'
+          python - <<EOF
 import feedparser
 rss = 'https://dev.to/feed/adityadorwal'
 d = feedparser.parse(rss)
@@ -27,7 +29,7 @@ lines = ['# Recent Posts\n']
 for e in d.entries[:5]:
     lines.append(f"- [{e.title}]({e.link})")
 open('RECENT_POSTS.md', 'w').write("\n".join(lines) + "\n")
-PY
+EOF
 
       - name: Commit and Push Changes
         run: |
