@@ -41,7 +41,7 @@ This project leverages deep learning to build an accurate and intuitive plant di
 
 ### 2. Whisper.cpp Transcriber (RT)  
 
-[<img src="assets/proj2.png" width="720" alt="Whisper.cpp Real-Time Speech Transcriber"/>](https://github.com/adityadorwal)  
+[<img src="assets/proj2.png" width="500" alt="Whisper.cpp Real-Time Speech Transcriber"/>](https://github.com/adityadorwal)  
 
 A real-time speech transcription tool built around **Whisper.cpp**. This project focuses on creating a highly efficient and low-latency system by incorporating **Voice Activity Detection (VAD)** to filter out silence and **hotword detection** for activation. The use of an **asynchronous architecture** ensures a smooth, non-blocking user experience, making it suitable for live-transcription tasks.  
 
@@ -49,7 +49,7 @@ A real-time speech transcription tool built around **Whisper.cpp**. This project
 
 ### 3. Dorwal AI — Assistant  
 
-[<img src="assets/proj3.png" width="720" alt="Dorwal AI — Local Desktop Assistant"/>](https://github.com/adityadorwal)  
+[<img src="assets/proj3.png" width="500" alt="Dorwal AI — Local Desktop Assistant"/>](https://github.com/adityadorwal)  
 
 A personal desktop assistant powered by a **Local LLM (Large Language Model)**, designed for privacy and offline use. The assistant processes natural language requests (**NLP**) directly on the user's machine, enabling a wide range of tasks from answering questions to automating workflows without an internet connection. This project highlights the potential of powerful, privacy-first desktop AI tools.  
 
@@ -77,5 +77,5 @@ A personal desktop assistant powered by a **Local LLM (Large Language Model)**, 
 ## 📫 Contact
 [LinkedIn](https://www.linkedin.com/in/aditya-dorwal-b4a488288/) · [Portfolio](https://adityadorwal.github.io/portfolio/) · [Email](18dorwaladitya@gmail.com)
 ---
-
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="25" height="25" />
 <p align="center">Made with ❤️—A focus on a seamless user experience, including lightweight animations and Dark & Light variants.</p>
