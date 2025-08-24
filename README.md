@@ -2,7 +2,7 @@
   <img src="assets/Hello.gif" alt="Welcome_gif" />
 </p>
 
-<h1 align="center">Hi, I'm <strong>Aditya Dorwal</strong> 👋</h1>
+<h1 align="center">Hi, I'm <strong>Aditya Dorwal</strong> <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="25" height="25" /></h1>
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?size=22&duration=2800&pause=700&center=true&vCenter=true&width=760&lines=AI+Engineer+who+ships+fast%2C+clean+ML+projects;Real-time+Speech+%E2%80%A2+Explainable+CV+%E2%80%A2+NLP;Open-source+mindset+%7C+DSA+daily" />
