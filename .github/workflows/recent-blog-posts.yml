@@ -1,20 +1,38 @@
-name: 'Update Blog Posts'
+name: Update Recent Blog Posts
 
 on:
   schedule:
-    # Runs every 4 hours to check for new posts
-    - cron: '0 */4 * * *'
+    - cron: '30 3 * * *'   # Runs every day at 03:30 UTC
   workflow_dispatch: {}
 
 jobs:
-  update-posts:
+  update:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: gautamkrishnar/blog-post-workflow@v1.2.1
+
+      - uses: actions/setup-python@v5
         with:
-          feed_list: "https://dev.to/feed/adityadorwal"
-          max_post_count: 5
-          readme_file: "README.md"
-          commit_message: "chore: update recent blog posts"
-          comment_tag_name: "BLOG-POST-LIST"
+          python-version: '3.x'
+
+      - run: pip install feedparser
+
+      - name: Build RECENT_POSTS.md from RSS
+        run: |
+          python - <<'PY'
+import feedparser
+rss = 'https://dev.to/feed/adityadorwal'
+d = feedparser.parse(rss)
+lines = ['# Recent Posts\n']
+for e in d.entries[:5]:
+    lines.append(f"- [{e.title}]({e.link})")
+open('RECENT_POSTS.md', 'w').write("\n".join(lines) + "\n")
+PY
+
+      - name: Commit and Push Changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add RECENT_POSTS.md
+          git commit -m "chore: update recent posts" || echo "No changes"
+          git push || true
