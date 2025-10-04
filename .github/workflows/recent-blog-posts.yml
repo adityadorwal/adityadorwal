@@ -1,18 +1,18 @@
-name: Update Recent Blog Posts
+# name: Update Recent Blog Posts
 
-on:
-  schedule:
-    - cron: '0 * * * *'   # Runs every hour
-  workflow_dispatch:      # Allows manual trigger
+# on:
+#   schedule:
+#     - cron: '0 * * * *'   # Runs every hour
+#   workflow_dispatch:      # Allows manual trigger
 
-jobs:
-  update-readme-with-blog:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
+# jobs:
+#   update-readme-with-blog:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Checkout repo
+#         uses: actions/checkout@v3
 
-      - name: Pull in dev.to posts
-        uses: gautamkrishnar/blog-post-workflow@v1
-        with:
-          feed_list: "https://dev.to/feed/thepracticaldev"
+#       - name: Pull in dev.to posts
+#         uses: gautamkrishnar/blog-post-workflow@v1
+#         with:
+#           feed_list: "https://dev.to/feed/thepracticaldev"
