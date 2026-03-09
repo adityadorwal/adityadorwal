@@ -1,14 +1,14 @@
 <p align="center">
-  <img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="600" alt="welcome gif"/>
+  <img src="assets/Hello.gif" alt="Welcome_gif" />
 </p>
 
 <h1 align="center">
-Hi, I'm <strong>Aditya Dorwal</strong>
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" width="70"/>
+  Hi, I'm <strong>Aditya Dorwal</strong>
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" width="70" height="70"/>
 </h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=22&duration=2800&pause=700&center=true&vCenter=true&width=760&lines=AI+Engineer+building+real-world+ML+systems;Real-time+Speech+•+Explainable+Computer+Vision+•+NLP;Local+LLMs+|+AI+Assistants+|+DSA+Daily" />
+  <img src="https://readme-typing-svg.herokuapp.com?size=22&duration=2800&pause=700&center=true&vCenter=true&width=760&lines=AI+Engineer+building+practical+ML+systems;Real-time+Speech+%E2%80%A2+Explainable+Computer+Vision+%E2%80%A2+NLP;Local+LLMs+%7C+AI+Assistants+%7C+DSA+daily" />
 </p>
 
 <p align="center">
@@ -28,19 +28,19 @@ Hi, I'm <strong>Aditya Dorwal</strong>
 
 # 🚀 About Me
 
-I build **practical AI systems** by turning research ideas into working software.
+I build **real-world AI systems** by turning research ideas into usable software.
 
-My focus areas include:
+My work focuses on practical machine learning applications such as:
 
-* Real-time speech systems
-* Explainable computer vision
-* NLP-powered assistants
-* Efficient ML pipelines
+• real-time speech systems
+• explainable computer vision
+• NLP-powered assistants
+• efficient ML pipelines
 
 🎓 **B.Tech — Computer Science (AI & ML)**
 KCC Institute of Technology and Management
 
-⚡ Currently exploring
+⚙️ **Current Interests**
 
 * Whisper.cpp & real-time inference
 * Explainable AI (Grad-CAM)
@@ -55,21 +55,15 @@ KCC Institute of Technology and Management
 
 ### Languages
 
-<p>
-<img src="https://skillicons.dev/icons?i=python,java,cpp,js" />
-</p>
+Python • Java • C++ • JavaScript
 
 ### AI / ML
 
-<p>
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow" />
-</p>
-
-Machine Learning • NLP • Computer Vision • Generative AI • Scikit-Learn
+PyTorch • TensorFlow • Scikit-Learn • NLP • Computer Vision • Generative AI
 
 ### Development
 
-Git • REST APIs • Streamlit • Web Development
+Git • Streamlit • REST APIs • Web Development
 
 ---
 
@@ -77,47 +71,40 @@ Git • REST APIs • Streamlit • Web Development
 
 ### 🌿 Plant Disease Detection
 
-Deep learning system for plant disease classification using **ResNet18 + Grad-CAM**.
+[<img src="assets/proj1.png" width="500"/>](https://github.com/adityadorwal/plant-disease-detection)
 
-Built with **PyTorch** and deployed with **Streamlit**.
+Deep learning system for plant disease classification using **ResNet18 + Grad-CAM** for explainability.
+Built with **PyTorch** and deployed using **Streamlit** for an interactive interface.
 
 ---
 
 ### 🎙 Real-Time Speech Transcriber
 
-Low-latency speech transcription tool using **Whisper.cpp** with:
+[<img src="assets/proj2.png" width="500"/>](https://github.com/adityadorwal)
 
-* Voice Activity Detection (VAD)
-* Hotword activation
-* Streaming inference pipeline
+Low-latency speech transcription tool built using **Whisper.cpp**.
+Integrates **Voice Activity Detection (VAD)** and **hotword activation** to create an efficient streaming inference pipeline.
 
 ---
 
 ### 🤖 Dorwal AI — Local Assistant
 
-Offline AI assistant powered by a **local LLM**.
+[<img src="assets/proj3.png" width="500"/>](https://github.com/adityadorwal)
 
-Enables privacy-focused AI interaction and desktop automation.
+Privacy-focused desktop AI assistant powered by a **local LLM**.
+Processes natural language queries locally for offline automation and interaction.
 
 ---
 
 # 📊 GitHub Stats
 
 <p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com?user=adityadorwal&theme=tokyonight&hide_border=true"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=adityadorwal&theme=dark&hide_border=true"/>
 </p>
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=adityadorwal&show_icons=true&theme=tokyonight"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adityadorwal&layout=compact&theme=tokyonight"/>
-</p>
-
----
-
-# 📈 Activity Graph
-
-<p align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=adityadorwal&theme=tokyo-night"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=adityadorwal&show_icons=true&theme=transparent"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adityadorwal&layout=compact&theme=transparent"/>
 </p>
 
 ---
@@ -125,13 +112,13 @@ Enables privacy-focused AI interaction and desktop automation.
 # 📫 Connect With Me
 
 <p align="center">
-<a href="https://www.linkedin.com/in/aditya-dorwal-b4a488288/">LinkedIn</a> •
-<a href="https://adityadorwal.github.io/portfolio/">Portfolio</a> •
-<a href="mailto:18dorwaladitya@gmail.com">Email</a>
+  <a href="https://www.linkedin.com/in/aditya-dorwal-b4a488288/">LinkedIn</a> •
+  <a href="https://adityadorwal.github.io/portfolio/">Portfolio</a> •
+  <a href="mailto:18dorwaladitya@gmail.com">Email</a>
 </p>
 
 ---
 
 <p align="center">
-Building intelligent systems • Learning every day • Shipping code 🚀
+  Building intelligent systems • Learning every day • Shipping code 🚀
 </p>
