@@ -122,3 +122,7 @@ Processes natural language queries locally for offline automation and interactio
 <p align="center">
   Building intelligent systems • Learning every day • Shipping code 🚀
 </p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/adityadorwal/adityadorwal/output/github-contribution-grid-snake.svg" />
+</p>
