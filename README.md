@@ -38,7 +38,7 @@ My work focuses on practical machine learning applications such as:
 • efficient ML pipelines
 
 🎓 **B.Tech — Computer Science (AI & ML)**
-KCC Institute of Technology and Management
+Dr. A. P. J. Abdul Kalam Technical University
 
 ⚙️ **Current Interests**
 
